@@ -2,7 +2,7 @@
 #include<process.h>
 #include<stdlib.h>
 
-#define MAX 5 //Maximum number of elements that can be stored
+#define MAX 5 
 
 int top=-1,stack[MAX];
 void push();
@@ -12,7 +12,7 @@ void display();
 void main()
 {
 int ch;
-while(1) //infinite loop, will end when choice will be 4
+while(1) 
 {
 printf("\n*** Stack Menu ***");
 printf("\n\n1.Push\n2.Pop\n3.Display\n4.Exit");
